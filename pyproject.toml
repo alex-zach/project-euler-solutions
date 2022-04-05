@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "project-euler-solutions"
+name = "project_euler_solutions"
 version = "0.1.0"
 description = ""
 authors = ["Alexander Zach <alexander.zach1@gmail.com>"]
 license = "MIT"
+packages = [
+    { include = "project_euler_solutions" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
